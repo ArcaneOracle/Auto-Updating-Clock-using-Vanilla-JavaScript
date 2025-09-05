@@ -11,3 +11,7 @@ I also like the fact that there are numerous ways to overcome the same problem, 
 
 ## 🛠 Skills
 HTML, CSS, JavaScript, TailwindCSS, AlpineJS.
+
+[View index.html](src/index.html)
+[View JavaScript](src/index.js)
+[View CSS](src/output.css)
