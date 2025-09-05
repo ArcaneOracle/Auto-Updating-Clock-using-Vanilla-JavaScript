@@ -11,12 +11,12 @@ code:
 03: Start the Tailwind CLI build process (terminal)
 Run the CLI tool to scan your source files for classes and build your CSS.
 code:
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+npx @tailwindcss/cli -i input.css -o output.css --watch
 
 04: Start using Tailwind in your HTML (index.html)
 Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
 code (html -> head):
-<link href="./output.css" rel="stylesheet">
+<link href="output.css" rel="stylesheet">
 
 <!-- <!doctype html>
 <html>
@@ -25,7 +25,7 @@ code (html -> head):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -->
 
-  <link href="./output.css" rel="stylesheet">
+  <link href="output.css" rel="stylesheet">
 
 <!--
 </head>
